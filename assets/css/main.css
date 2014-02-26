@@ -1,0 +1,126 @@
+body {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#game {
+	margin:0;
+	padding:10px;
+	width:600px;
+	background-color:#000;
+}
+
+#newPlayerModule {
+	margin-bottom:10px;
+	padding:5px 10px 10px; 
+	background-color:#ccc;
+}
+
+h2 {
+	margin:0 0 5px;
+	padding:5px 0 0;
+	font-size:18px;
+	color:yellow
+}
+
+#nameField {
+	width:200px
+}
+
+#players {
+	margin:0 0 10px;
+	padding:5px 10px 10px;
+	background-color:#063;
+	list-style::none;
+}
+
+.player {
+	margin:0 0 10px 0;
+	padding:0;
+	background-color:#0C0
+}
+
+.playerId {
+	display:inline-block;
+	margin:0 10px 0 0;
+	padding:8px 15px 7px;
+	background-color:#900;
+	color:yellow;
+	font-weight:bold;
+}
+
+.playerName {
+	display:inline-block;
+	margin:2px 0 0;
+	padding:5px 10px 2px;
+	width:180px;
+	background-color:#099;
+	color:yellow
+}
+
+.playerChips {
+	display:inline-block;
+	margin:2px 0 0 10px;
+	padding:5px 10px 2px;
+	width:180px;
+	background-color:#099;
+	color:yellow
+}
+
+#playerControls {
+	margin:0;
+	padding:10px 10px;
+	text-align:right;
+	background-color:#090
+}
+
+#playerControls button {
+	margin:0 0 0 5px;
+}
+
+#deck {
+	margin:0;
+	padding:5px 10px 10px;
+	background-color:#fff
+}
+
+.card {
+	display:inline-block;
+	margin:0 5px 5px 0;
+	padding:6px;
+	text-align:center;
+	width:72px;
+	border: 1px solid #000;
+	border-bottom-left-radius:6px;
+	border-bottom-right-radius:6px;
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+	background-color:#fff
+}
+
+#communalCards {
+	margin:0 0 10px;
+	padding:5px 10px 10px;
+	background-color:#063;
+}
+
+#pot {
+	margin:0 0 10px;
+	padding:5px 10px 10px;
+	background-color:#063;
+	color: yellow;
+}
+
+#dealer {
+	margin:0 0 10px;
+	padding:5px 10px 10px;
+	background-color:#063;
+	color: yellow;
+}
+
+#controls {
+	padding:10px;
+}
+
+.currentPlayer {
+	background-color:#993
+}
